@@ -1004,7 +1004,7 @@ button {
     margin-bottom: 15px;
     font-size: 2.0rem;
     font-weight: bold;
-   
+   position: relative;
 }
 
 .qa-list .qa-list-item .qa-list-content {
@@ -1020,6 +1020,31 @@ button {
     font-size: 1.6rem;
     font-weight: bold;
 }
+
+.fa-question-circle-o{
+    color: #016ea9;
+    margin-right: 5px;
+}
+.fa-chevron-up {
+    float: right;
+    color: #e5e5e5;
+    font-weight: bold;
+    font-size: 2.0rem;
+    padding-top: 3px;
+}
+
+.fa-chevron-up:before{
+    content: "\f077";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 47px;
+    transform: translateY(-50%) rotate(180deg);
+    transition: 0.2s;
+}
+.fa-chevron-up.selected:before {
+
+	transition: 0.2s;}
 
 footer {
     background-color: #ececec;
@@ -1377,7 +1402,7 @@ footer p {
         font-size: 1.2rem;
     }
     .member-item-img img{
-        top: -155px;
+        top: -88%;
         z-index: 300;
         width: 25%;
     }
@@ -1597,7 +1622,7 @@ footer p {
         width: 90%;
         margin: 0 auto 5px;
         font-size: 1.5rem;
-        padding: 7px;
+        padding: 7px 50px 7px 7px;
     }
 
     .qa-list .qa-list-item .qa-list-content .qa-list-txt{
