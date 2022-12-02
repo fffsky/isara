@@ -1785,9 +1785,11 @@ footer p {
     #specialdetail {
         padding: 20px 0 10px;
     }
-    #specialdetail h2{
+
+    #specialdetail h2 {
         padding: 10px 0;
     }
+
     .specialdetail-title p:nth-of-type(1) {
         font-size: 1.8rem;
         margin-top: 20px;
@@ -1802,9 +1804,11 @@ footer p {
         font-size: 1.2rem;
         margin-bottom: 40px;
     }
+
     #message {
         padding: 55px 0 40px;
     }
+
     .message-title p:nth-of-type(1) {
         font-size: 1.8rem;
     }
@@ -1865,15 +1869,119 @@ footer p {
         font-size: 1.2rem;
         padding: 15px 20px 20px 8%;
     }
+
     #question {
         padding: 30px 15px 40px;
     }
-    .pagetop{
-    bottom: 20px;
-    right: 10px;
-    padding: 10px;
+
+    .pagetop {
+        bottom: 20px;
+        right: 10px;
+        padding: 10px;
     }
-    .fa-angle-up{
+
+    .fa-angle-up {
         font-size: 15px;
     }
+
+
+    /* 以下、アコーディオンの設定 */
+    .qa-list {
+        margin: 0 auto;
+        max-width: 1080px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .flow-list-item {
+        width: 95%;
+        margin: 0 auto 5px;
+        padding: 10px 20px;
+        background: #FEF5E0;
+    }
+
+    .flow-list-item-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .flow-list-item-title img {
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
+    }
+
+    .flow-list-item-title p {
+        font-size: 15px;
+        font-weight: 600;
+        flex: 1;
+    }
+
+    .flow-list-item.qa-list-title {
+        padding: 20px 30px;
+        border: 1px solid #cccccc;
+        margin-bottom: 15px;
+        font-size: 2.0rem;
+        font-weight: bold;
+        position: relative;
+    }
+
+    .flow-list-item .flow-list-content {
+        line-height: 1.5;
+        height: 0rem;
+        overflow: hidden;
+        transition: height 0.5s ease 0s, padding 0.5s ease 0s;
+
+    }
+
+    .qa-list .qa-list-item .qa-list-content .qa-list-txt {
+        padding: 5px 20px 30px;
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .flow-item-text {
+        width: 100%;
+    }
+
+    .flow-item-text p {
+        font-size: 1.2rem;
+    }
+
+    .flow-item-text p:first-child {
+        font-size: 1.2rem;
+    }
+
+    .flow-item-text1 p:nth-child(2) {
+        font-size: 1.2rem;
+    }
+
+    .flow-item-text p {
+        margin: 10px 0;
+    }
+
+    .flow-item-text2 p:nth-child(2) {
+        font-weight: 100;
+    }
+
+    .flow-item-text2 p:nth-child(3) {
+        font-size: 1.2rem;
+    }
+
+    .flow-item-text3 p:nth-child(2) {
+        font-size: 1.2rem;
+    }
+
+    .flow-item-text4 p:nth-child(2) {
+        font-size: 1.2rem;
+    }
+
+    .fa-chevron-down {
+        float: right;
+        color: #333333;
+        font-weight: bold;
+        font-size: 2.0rem;
+        padding-top: 3px;
+    }
+
 }
